@@ -329,7 +329,7 @@ export default function Home() {
             </div>
             <div className="lg:ml-auto">
               <Image
-                src="https://bing.com/th/id/BCO.4cdc18d3-c677-46c8-8d27-5f1367b79217.png"
+                src="https://lh3.googleusercontent.com/gg-dl/AJfQ9KTeyulIL_2c18lBsGTp-gK5oaoemcBvY2J1ZFFpDPEVX3P6Yox_jOUzp0yAgTdEFVtv4JdzvP6phwmd1jYu4TOIOOWcHSpneIcHdddfB1e_0Fz3T3twmU4K5fT03GITdKinSTyjE5ZMGrillxZwp5HxUxwTeaRxjKKL2P0-iSO3A56XHA=s1024"
                 alt="People learning together"
                 width={400}
                 height={300}
