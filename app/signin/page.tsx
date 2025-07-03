@@ -106,10 +106,10 @@ export default function SignIn() {
                   <div className="space-y-1 text-sm">
                     <button
                       type="button"
-                      onClick={() => handleDemoLogin("demo@example.com", "Demo123!")}
+                      onClick={() => handleDemoLogin("demo@example.com", "demo123")}
                       className="block w-full text-left p-2 rounded bg-muted hover:bg-muted/80 transition-colors"
                     >
-                      <strong>demo@example.com</strong> / Demo123!
+                      <strong>demo@example.com</strong> / demo123
                     </button>
                     <button
                       type="button"
