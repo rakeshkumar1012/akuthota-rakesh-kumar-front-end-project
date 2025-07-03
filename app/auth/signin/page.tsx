@@ -61,7 +61,7 @@ export default function SignIn() {
 
   const handleDemoSignIn = () => {
     setEmail("demo@example.com")
-    setPassword("Demo123!")
+    setPassword("demo123")
   }
 
   return (
