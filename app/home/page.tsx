@@ -15,7 +15,7 @@ const demoUsers = [
   {
     uid: "demo-1",
     displayName: "Alex Morgan",
-    photoURL: "https://ts2.mm.bing.net/th?id=OIP.Kk4i-k-7bOfsgPv0SJtj5AHaHa&pid=15.1",
+    photoURL: "https://bing.com/th/id/BCO.8d153408-df89-4fc8-8b3e-910b9dcc6c2b.png",
     rating: 4.8,
     canTeach: ["Web Development", "React", "UI Design"],
     wantsToLearn: ["Spanish", "Photography"],
@@ -24,7 +24,7 @@ const demoUsers = [
   {
     uid: "demo-2",
     displayName: "Jamie Chen",
-    photoURL: "https://bing.com/th/id/BCO.9e0bdbb6-56a6-4d67-ba1a-0bd3850da5c7.png",
+    photoURL: "https://bing.com/th/id/BCO.c62fe63a-b759-47a0-8272-e61229cffda5.png",
     rating: 4.9,
     canTeach: ["Mandarin", "Cooking", "Photography"],
     wantsToLearn: ["JavaScript", "Guitar"],
@@ -33,7 +33,7 @@ const demoUsers = [
   {
     uid: "demo-3",
     displayName: "Sam Taylor",
-    photoURL: "https://bing.com/th/id/BCO.e02f2146-78ab-4bf8-b1a2-5895f1def003.png",
+    photoURL: "https://bing.com/th/id/BCO.89dd2d93-1f43-4f86-b7c7-696fbd13837e.png",
     rating: 4.7,
     canTeach: ["Yoga", "Meditation", "Nutrition"],
     wantsToLearn: ["Digital Marketing", "SEO"],
@@ -42,7 +42,7 @@ const demoUsers = [
   {
     uid: "demo-4",
     displayName: "Jordan Lee",
-    photoURL: "https://bing.com/th/id/BCO.7ccec93e-a924-4272-9853-66e820d62e18.png",
+    photoURL: "https://bing.com/th/id/BCO.9a25f2fc-40c7-427e-a577-a0cb2620cb49.png",
     rating: 4.6,
     canTeach: ["Guitar", "Music Theory", "Songwriting"],
     wantsToLearn: ["Public Speaking", "Video Editing"],
@@ -51,7 +51,7 @@ const demoUsers = [
   {
     uid: "demo-5",
     displayName: "Riley Johnson",
-    photoURL: "https://bing.com/th/id/BCO.9a7906db-df90-4066-a3ba-f8b65a59aed5.png",
+    photoURL: "https://bing.com/th/id/BCO.4a8a7dc1-c0c3-4a22-83a7-61c351b3fbf5.png",
     rating: 4.9,
     canTeach: ["Data Science", "Python", "Machine Learning"],
     wantsToLearn: ["Drawing", "French"],
@@ -60,7 +60,7 @@ const demoUsers = [
   {
     uid: "demo-6",
     displayName: "Casey Wilson",
-    photoURL: "https://bing.com/th/id/BCO.358e2efd-89ca-4e63-b8af-bea76b34eeaa.png",
+    photoURL: "https://bing.com/th/id/BCO.31121803-9e16-4598-821f-2a24a262ee57.png",
     rating: 4.7,
     canTeach: ["Digital Marketing", "Content Creation", "SEO"],
     wantsToLearn: ["Coding", "Yoga"],
@@ -150,7 +150,7 @@ export default function Home() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://bing.com/th/id/BCO.af2c88a5-184d-45fa-bb83-8194a1099db4.png"
+                src="https://bing.com/th/id/BCO.79570530-816b-4673-a575-feb1e2952e7d.png"
                 alt="People collaborating and sharing skills in a modern workspace"
                 width={500}
                 height={500}
@@ -329,7 +329,7 @@ export default function Home() {
             </div>
             <div className="lg:ml-auto">
               <Image
-                src="https://lh3.googleusercontent.com/gg-dl/AJfQ9KTeyulIL_2c18lBsGTp-gK5oaoemcBvY2J1ZFFpDPEVX3P6Yox_jOUzp0yAgTdEFVtv4JdzvP6phwmd1jYu4TOIOOWcHSpneIcHdddfB1e_0Fz3T3twmU4K5fT03GITdKinSTyjE5ZMGrillxZwp5HxUxwTeaRxjKKL2P0-iSO3A56XHA=s1024"
+                src="https://bing.com/th/id/BCO.874175fd-e1cd-4fe6-9c91-9ceb0944ee81.png"
                 alt="People learning together"
                 width={400}
                 height={300}
