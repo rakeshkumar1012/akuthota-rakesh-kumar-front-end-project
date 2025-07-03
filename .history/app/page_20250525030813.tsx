@@ -83,7 +83,7 @@ export default function Home() {
   // Redirect to sign in if not authenticated
   useEffect(() => {
     if (!loading && !isAuthenticated) {
-      redirect("/home")
+      redirect("/auth/signin")
     }
   }, [isAuthenticated, loading])
 

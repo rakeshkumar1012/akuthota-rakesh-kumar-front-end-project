@@ -121,7 +121,7 @@ export default function SignIn() {
               </Button>
             </form>
 
-            {!user && (
+            {!isFirebaseReady && (
               <Button type="button" variant="outline" className="w-full rounded-xl" onClick={handleDemoSignIn}>
                 Use Demo Credentials
               </Button>

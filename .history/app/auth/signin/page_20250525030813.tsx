@@ -17,7 +17,7 @@ export default function SignIn() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [isLoading, setIsLoading] = useState(false)
-  const { signIn, user } = useAuth()
+  const { signIn, user, isFirebaseReady } = useAuth()
   const { toast } = useToast()
   const router = useRouter()
 
@@ -78,7 +78,7 @@ export default function SignIn() {
             <CardDescription>Enter your email and password to access your account</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
-            {!user && (
+            {!isFirebaseReady && (
               <Alert>
                 <AlertDescription>
                   Demo mode: Use email "demo@example.com" and password "demo123" to test the application.
@@ -121,7 +121,7 @@ export default function SignIn() {
               </Button>
             </form>
 
-            {!user && (
+            {!isFirebaseReady && (
               <Button type="button" variant="outline" className="w-full rounded-xl" onClick={handleDemoSignIn}>
                 Use Demo Credentials
               </Button>

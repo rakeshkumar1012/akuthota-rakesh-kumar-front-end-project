@@ -28,7 +28,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined)
 // Demo users database - Fixed and working
 const demoUsers: { [email: string]: { password: string; profile: UserProfile } } = {
   "demo@example.com": {
-    password: "demo123",
+    password: "Demo123!",
     profile: {
       id: "demo-user-1",
       fullName: "Demo User",
